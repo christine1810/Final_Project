@@ -9,7 +9,7 @@
 
 body { 
     width: 75%; 
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
     background: #fafafa;        
     color: #333;
@@ -35,13 +35,13 @@ h1, h2, h3 {
 h1 {
     font-size: 7em;
     margin-top: 1em;
-    text-shadow: 3px 4px 3px #000, 3px 3px 0px rgba(0,0,0,0.5);
+    text-shadow: 3px 6px 3px #000, 5px 3px 0px rgba(0,0,0,0.5);
     color: #e6e600
     
     }
 
 h2 {font-size: 2em;
-    margin: .3em 0 .5em 0
+    margin: .3em 0 .5em 0;
     }   
 
 h3 {font-size: 1.25em;
@@ -63,6 +63,8 @@ blockquote {
     color: #000;
     font-size: 1.5em;
     margin: 0em;
+    font-family: 'Francois One', sans-serif;
+
     }
 
 header {
@@ -83,29 +85,57 @@ hr {
     border: 0 none
     }
 
+/* ---------targeting headings----------- */
+
 .about {
     color: #00cc00;
     font-size: 125%;
-    margin: 0em
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
     }
 
 .career {
     color: #990099;
     font-size: 125%;
-    margin: 0em
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
     }
 
 .design {
     color: #ff0000;
     font-size: 125%;
-    margin: 0em
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
     }
 
-.books &amp; film {
-    color: #0040ff;
+.books{
+    color: #00bfff;
     font-size: 125%;
-    margin: 0em
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
     }
+
+.awards{
+    color: #ff00ff;
+    font-size: 125%;
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
+    }
+
+.conclusion{
+    color: #ff9900;
+    font-size: 125%;
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
+    }
+
+.bibliography{
+    color: #e6e600;
+    font-size: 125%;
+    margin: 0em;
+    text-shadow: 3px 6px 3px #000
+    }
+
 /* ---------links----------- */
 
 a {
@@ -131,9 +161,10 @@ nav {
     margin: 0;
     width: 100%;
     background-color: rgba(0, 100, 500, 0.85); 
-    padding: 2em 0; 
+    padding: 1.25em 0; 
     font-size: 1.25em;
     font-family: 'Righteous', cursive;
+    text-shadow: 1px 1px 1px #000
     }
 
 
@@ -141,6 +172,7 @@ nav ul {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px
+    
     }
 
 nav ul li {
@@ -173,11 +205,6 @@ blockquote {
     color: #26734d
 
     } 
-
-cite    {
-    font-size: .65em
-}
-
 
 /* -------------images----------- */
 
