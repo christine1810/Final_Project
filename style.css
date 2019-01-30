@@ -141,9 +141,14 @@ hr {
     font-size: 125%;
     margin: 0em;
     text-shadow: 2px 1px 1px #000;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif
     
     }
+
+.cbs {text-shadow: 2px 1px 1px #00cc00;
+
+    
+}
 
 /* ---------links----------- */
 
