@@ -8,7 +8,7 @@
   }
 
 body { 
-    width: 75%; 
+    width: 90%; 
     max-width: 700px;
     margin: auto;
     background: #fafafa;        
@@ -34,7 +34,7 @@ h1, h2, h3 {
         
 h1 {
     font-size: 7em;
-    margin-top: 1em;
+    margin-top: 0em;
     text-shadow: 3px 6px 3px #000, 5px 3px 0px rgba(0,0,0,0.5);
     color: #e6e600
     
@@ -60,7 +60,7 @@ blockquote {
     } 
 
 .intro {
-    color: ;
+    color: #333;
     font-size: 1.5em;
     margin: 0em;
     font-family: 'Francois One', sans-serif;
@@ -68,11 +68,11 @@ blockquote {
     }
 
 header {
-    margin: 9em 0
+    margin: 5em 0
     }
 
 header h2 {
-    font-style: italic;
+    
     font-size: 2.25em;
     margin-bottom: 1.5em;
     color: #333
@@ -160,7 +160,7 @@ a {
 
 
 a:hover {
-    color: #ff0000;
+    color: #00e600;
     border-bottom: 1px dotted
     } 
 
@@ -175,7 +175,7 @@ nav {
     margin: 0;
     width: 100%;
     background-color: rgba(0, 100, 500, 0.85); 
-    padding: 1.25em 0; 
+    padding: -0.2em 0; 
     font-size: 1.25em;
     font-family: 'Righteous', cursive;
     text-shadow: 1px 1px 1px #000
@@ -185,7 +185,7 @@ nav {
 nav ul {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px
+    letter-spacing: px
     
     }
 
@@ -204,7 +204,7 @@ nav a:visited {
 
 nav a:hover {
     border-bottom: none;
-    color: #ff3300;
+    color: #00e600;
     transition: all 0.2s ease-in-out
     } 
 
