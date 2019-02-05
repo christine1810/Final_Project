@@ -9,29 +9,32 @@
 
 body { 
     width: 90%; 
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
-    background: #fafafa;        
-    color: #333;
+    background: #404040;        
+    color: #f2f2f2;
     font-family: serif;
     font-size: 125%
     }
 
     h1 {
     font-size: 7em;
-    font-family: 'Permanent Marker', cursive, serif;
+    font-family: 'Righteous', cursive;
     margin-top: 0em;
-    text-shadow: 3px 7px 5px #000, 6px 3px 0px rgba(0,0,0,0.5);
-    color: #e6e600;
+    text-shadow: 1px 6px 1px #000, 1px 0px 0px rgba(0,0,0,0.5);
+    color: #ffff1a;
     letter-spacing: 5px;
-    text-align: center
+    text-align: center;
+    transform: perspective()
     }
 
     h2{
     font-weight: normal;
+    font-size: 2em;
+    margin: .5em 0 .5em 0;
     color: #000;
     text-align: center;
-    font-family: 'Permanent Marker', cursive, serif;
+    font-family: 'Righteous', cursive;
     }
 
  p, li, blockquote {
@@ -41,12 +44,10 @@ body {
     }
         
 
-h2 {font-size: 2em;
-    margin: .3em 0 .5em 0;
-    }   
 
 h3 {font-size: 1.25em;
-    margin: .3em 0 .5em 0
+    margin: .3em 0 .5em 0;
+    text-decoration: underline
     }   
 
 
@@ -57,10 +58,10 @@ blockquote {
     }
 
 .intro {
-    color: #333;
+    color: #e6e6e6;
     font-size: 1.5em;
     margin: 0em;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Righteous', cursive
 
     }
 
@@ -72,13 +73,14 @@ header h2 {
     
     font-size: 2.25em;
     margin-bottom: 1.5em;
-    color: #333
+    color: #e6e6e6;
+
     }
 
 hr {
-    margin: 3em 0;
+    margin: 1em 1;
     height: 2px;    
-    background-color:#0066cc;
+    background-color:#f2f2f2;
     border: 0 none
     }
 
@@ -88,57 +90,57 @@ hr {
     color: #00cc00;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .career {
     color: #cc00cc;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .design {
     color: #ff0000;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .books{
     color: #00bfff;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .awards{
     color: #ff00ff;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .conclusion{
     color: #ff9900;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .bibliography{
     color: #e6e600;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 3px 6px 3px #000
+    text-shadow: 2px 2px 2px #000
     }
 
 .question {
-    color: #8c1aff;
+    color: #f2f2f2;
     font-size: 125%;
     margin: 0em;
-    text-shadow: 2px 1px 1px #000;
-    font-family: 'Merriweather', serif
+    text-shadow: 1px 1px 5px #000;
+    font-family: 'Righteous', cursive
     
     }
 
@@ -150,14 +152,14 @@ hr {
 /* ---------links----------- */
 
 a {
-    color: #0000ff; 
+    color: #f2f2f2;
     text-decoration: none
     } 
 
 
 
 a:hover {
-    color: #00e600;
+    color: #ffff1a;
     border-bottom: 1px dotted
     } 
 
@@ -173,7 +175,7 @@ nav {
     width: 100%;
     background-color: rgba(0, 100, 500, 0.85); 
     padding: -0.2em 0; 
-    font-size: 1.25em;
+    font-size: 1em;
     font-family: 'Righteous', cursive;
     text-shadow: 1px 1px 1px #000
     }
@@ -182,26 +184,26 @@ nav {
 nav ul {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: px
+    letter-spacing: 4px
     
     }
 
 nav ul li {
     display: inline;
-    margin: 20px
+    margin: 10px
     } 
 
  nav a:link {
-    color: #fff
+    color: #e6e6e6
     }
 
 nav a:visited {
-   color: #fff
+   color: #e6e6e6
    }
 
 nav a:hover {
     border-bottom: none;
-    color: #00e600;
+    color: #e6e600;
     transition: all 0.2s ease-in-out
     } 
 
@@ -213,7 +215,7 @@ blockquote {
     padding: 1em 0;
     font-size: 1.75em;
     line-height: 1.3em;
-    color: #26734d
+    color: #80d4ff
 
     } 
 
@@ -222,8 +224,8 @@ blockquote {
 img {
     display: block;
     margin: 4em auto; /* note from Paul: This sets the margin top and bottom to 0px. The auto on the left and right will automatically calculate the space either side and split it evenly between the two margins. */
-    padding: 0;
-    max-width: 75% /* note from Paul: This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
+    padding: 1em;
+    max-width: 100% /* note from Paul: This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
 }
 
 
