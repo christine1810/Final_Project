@@ -11,8 +11,8 @@ body {
     width: 90%; 
     max-width: 600px;
     margin: auto;
-    background: #404040;        
-    color: #f2f2f2;
+    background: #fff;        
+    color: #1a1a1a;
     font-family: serif;
     font-size: 125%
     }
@@ -21,7 +21,7 @@ body {
     font-size: 7em;
     font-family: 'Righteous', cursive;
     margin-top: 0em;
-    text-shadow: 1px 6px 1px #000, 1px 0px 0px rgba(0,0,0,0.5);
+    text-shadow: 3px 6px 4px #333, 1px 1px 5px rgba(0,0,0,0.5);
     color: #ffff1a;
     letter-spacing: 5px;
     text-align: center;
@@ -50,15 +50,8 @@ h3 {font-size: 1.25em;
     text-decoration: underline
     }   
 
-
-blockquote {
-    hanging-punctuation: first;
-    text-indent: -0.5em; /* Change according font */
-
-    }
-
 .intro {
-    color: #e6e6e6;
+    color: #1a1a1a;
     font-size: 1.5em;
     margin: 0em;
     font-family: 'Righteous', cursive
@@ -70,17 +63,18 @@ header {
     }
 
 header h2 {
-    
     font-size: 2.25em;
     margin-bottom: 1.5em;
-    color: #e6e6e6;
+    margin: 0em;
+    text-shadow: 0px 0px 0px #000;
+    font-family: 'Righteous', cursive
 
     }
 
 hr {
     margin: 1em 1;
     height: 2px;    
-    background-color:#f2f2f2;
+    background-color:#3333ff;
     border: 0 none
     }
 
@@ -101,7 +95,7 @@ hr {
     }
 
 .design {
-    color: #ff0000;
+    color: #cc0000;
     font-size: 125%;
     margin: 0em;
     text-shadow: 2px 2px 2px #000
@@ -133,26 +127,13 @@ hr {
     font-size: 125%;
     margin: 0em;
     text-shadow: 2px 2px 2px #000
-    }
+    } 
 
-.question {
-    color: #f2f2f2;
-    font-size: 125%;
-    margin: 0em;
-    text-shadow: 1px 1px 5px #000;
-    font-family: 'Righteous', cursive
-    
-    }
-
-.cbs {text-shadow: 2px 1px 1px #00cc00;
-
-    
-}
 
 /* ---------links----------- */
 
 a {
-    color: #f2f2f2;
+    color: #000;
     text-decoration: none
     } 
 
@@ -194,16 +175,16 @@ nav ul li {
     } 
 
  nav a:link {
-    color: #e6e6e6
+    color: #ffffff
     }
 
 nav a:visited {
-   color: #e6e6e6
+   color: #ffffff
    }
 
 nav a:hover {
     border-bottom: none;
-    color: #e6e600;
+    color: #ffff00;
     transition: all 0.2s ease-in-out
     } 
 
@@ -215,8 +196,10 @@ blockquote {
     padding: 1em 0;
     font-size: 1.75em;
     line-height: 1.3em;
-    color: #80d4ff
-
+    color: rgba(0, 100, 500, 0.85);
+    hanging-punctuation: first;
+    text-indent: -0.5em; /* Change according font */
+    color: rgba(0, 100, 500, 0.85)
     } 
 
 /* -------------images----------- */
